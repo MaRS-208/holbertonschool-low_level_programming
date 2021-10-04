@@ -1,20 +1,21 @@
 #include <stdio.h>
 
 /**
-  * main - base 16
+  * main - single-digit numbers
   * Return: 0
   */
 int main(void)
 {
 	int sd;
 
-	for (sd = '0' ; sd <= '9' ; sd++)
+	for (sd = '0'; sd <= '9'; sd++)
 	{
 		putchar(sd);
-	}
-	for (sd = 'a' ; sd <= 'f' ; sd++)
-	{
-		putchar(sd);
+		if (sd < '9')
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 
