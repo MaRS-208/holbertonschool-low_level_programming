@@ -12,7 +12,7 @@ char *_strchr(char *s, char c)
 
 	for (l = 0; s[l] && s[l] != c; l++)
 	{
-		if (s[l])
+		if (s[l] == c)
 			return (&s[l]);
 	}
 		return (0);
