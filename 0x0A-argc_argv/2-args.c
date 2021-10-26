@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 	{
 		for (a = 1; a < argc; a++)
 		{
-			printf("argv[%d] = %s\n", a, argv[a]);
+			printf("%s\n", argv[a]);
 		}
 	}
 	else
