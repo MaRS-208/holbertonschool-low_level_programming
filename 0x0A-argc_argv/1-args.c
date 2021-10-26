@@ -7,7 +7,18 @@
  */
 int main(int argc, char *argv[])
 {
-	(void)argv;
-	printf("%d\n", argc);
+	int a;
+
+	printf("%s\n", argv[0]);
+	if (argc > 1)
+	{
+		for (a = 1; a < argc; a++)
+		{
+			printf("argv[%d] = %s\n", a, argv[a]);
+		}
+	}
+	else
+	{
+	}
 	return (0);
 }
