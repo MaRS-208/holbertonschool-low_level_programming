@@ -12,9 +12,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	else
-	{
-		printf("%d\n", argv[1] * argv[2]);
-	}
+	if (argv)
+		return (1);
 	return (0);
 }
