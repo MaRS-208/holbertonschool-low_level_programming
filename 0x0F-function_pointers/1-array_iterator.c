@@ -9,10 +9,11 @@
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	if (array)
+	unsigned int a;
+
+	if (array && size && action)
 	{
-	array = malloc(size);
-	
-	action(array);
+		for (a = 0; a < size; a++)
+			action(array[a]);
 	}
 }
