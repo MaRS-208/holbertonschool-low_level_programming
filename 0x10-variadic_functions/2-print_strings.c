@@ -19,7 +19,6 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			printf("%s", x);
 		else
 			printf("(nil)");
-		printf("%s", x);
 		if (((y + 1) < n) && separator)
 			printf("%s", separator);
 
