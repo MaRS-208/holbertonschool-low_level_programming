@@ -1,4 +1,4 @@
-0x0D - Structures, typedef
+ - Structures, typedef
  By Julien Barbier
  Ongoing project - started 11-01-2021, must end by 11-02-2021 (in about 10 hours) - you're done with 0% of tasks.
  Checker was released at 11-01-2021 12:00 PM

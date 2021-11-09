@@ -1,26 +1,24 @@
-0x0D - Structures, typedef
+0x10 - Variadic functions
  By Julien Barbier
- Ongoing project - started 11-01-2021, must end by 11-02-2021 (in about 10 hours) - you're done with 0% of tasks.
- Checker was released at 11-01-2021 12:00 PM
+ Ongoing project - started 11-04-2021, must end by 11-05-2021 (in about 12 hours) - you're done with 0% of tasks.
+ Checker was released at 11-04-2021 12:00 PM
  QA review fully automated.
-
-
 Resources
 Read or watch:
 
-0x0d. Structures.pdf
-struct (C programming language)
-Documentation: structures
-0x0d. Typedef and structures.pdf
-typedef
-Programming in C by Stephen Kochan - Chapter 8, Working with Structures p163-189
-The Lost Art of C Structure Packing (Advanced - not mandatory)
+stdarg.h
+Variadic Functions
+Const Keyword
+man or help:
+
+stdarg
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 General
-What are structures, when, why and how to use them
-How to use typedef
+What are variadic functions
+How to use va_start, va_arg and va_end macros
+Why and how to use the const type qualifier
 Requirements
 General
 Allowed editors: vi, vim, emacs
@@ -30,7 +28,11 @@ A README.md file, at the root of the folder of the project is mandatory
 Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
 You are not allowed to use global variables
 No more than 5 functions per file
-The only C standard library functions allowed are printf, malloc, free and exit.
+The only C standard library functions allowed are malloc, free and exit. Any use of functions like printf, puts, calloc, realloc etc… is forbidden
+You are allowed to use the following macros: va_start, va_arg and va_end
+You are allowed to use _putchar
+You don’t have to push _putchar.c, we will use our file. If you do it won’t be taken into account
 In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
+The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called variadic_functions.h
 Don’t forget to push your header file
 All your header files should be include guarded
