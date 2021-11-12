@@ -9,9 +9,9 @@ list_t *create_node(const char *str)
 	list_t *new;
 
 	new = malloc(sizeof(list_t));
+	new->str = NULL;
 	if (!new)
 		return (NULL);
-	new->str = NULL;
 	if (str)
 		new->str = strdup(str);
 	return (new);
