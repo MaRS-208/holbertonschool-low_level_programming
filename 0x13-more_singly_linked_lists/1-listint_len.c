@@ -6,5 +6,8 @@
  */
 size_t listint_len(const listint_t *h)
 {
-	return (0);
+	if (h)
+		return (listint_len(h->next) + 1);
+	else
+		return (0);
 }
