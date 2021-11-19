@@ -2,7 +2,7 @@
 #include <stdint.h>
 
 /**
- * get_endianess - l
+ * get_endianness - l
  * Return: a
  */
 int get_endianness(void)
