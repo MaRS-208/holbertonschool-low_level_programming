@@ -2,7 +2,7 @@
 
 /**
  * print_dlistint - prints all elements of list
- * @h:
+ * @h: idgaf
  * Return: number of nodes
  */
 

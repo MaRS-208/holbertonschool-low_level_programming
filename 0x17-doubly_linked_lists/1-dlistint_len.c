@@ -2,7 +2,7 @@
 
 /**
  * dlistint_len - returns number of elements of list
- * @h:
+ * @h: idfc
  * Return: number of elements
  */
 
